@@ -79,13 +79,13 @@ See [supported configurations][] for more details.
 ### Install a released version using the Helm repository
 
 * Add the Elastic Helm charts repo:
-`helm repo add elastic https://helm.elastic.co`
+`helm repo add elasticsearch https://nobilexdev.github.io/elasticsearch`
 
-* Install it: `helm install elasticsearch elastic/elasticsearch`
+* Install it: `helm install elasticsearch nobilexdev/elasticsearch`
 
 ### Install a development version using the main branch
 
-* Clone the git repo: `git clone git@github.com:elastic/helm-charts.git`
+* Clone the git repo: `git clone git@github.com:nobilexdev/elasticsearch.git`
 
 * Install it: `helm install elasticsearch ./helm-charts/elasticsearch --set imageTag=8.5.1`
 
