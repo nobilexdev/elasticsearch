@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  elasticsearch:
+  - apiVersion: v1
+    appVersion: 8.5.1
+    created: "2024-09-05T05:59:51.023262102+02:00"
+    description: Official Elastic helm chart for Elasticsearch
+    digest: 0203b5d011253a37747ccd75d92c69457f342a04e82b81b17fe8d58bcc3aed1e
+    home: https://github.com/elastic/helm-charts
+    icon: https://helm.elastic.co/icons/elasticsearch.png
+    maintainers:
+    - email: development1@nobilex.nl
+      name: Nobilex
+    name: elasticsearch
+    sources:
+    - https://github.com/nobilexdev/elasticsearch
+    urls:
+    - https://nobilexdev.github.io/elasticsearch/elasticsearch-8.5.1.tgz
+    version: 8.5.1
+generated: "2024-09-05T05:59:51.019621449+02:00"
